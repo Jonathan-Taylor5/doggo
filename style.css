@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+}
+html{
+    background-color: #22475b;
+}
+
+nav, footer{
+    height: 55px;
+    background-color: #f99848;
+}
+
+footer{
+    text-align: center;
+    line-height: 60px;
+    color: #22475b;
+}
+
+nav{
+    text-align: left;
+    line-height: 60px;
+    box-sizing: border-box;
+    padding: 8px;
+    font-size: 25px;
+}
+
+a{
+    color: #22475b;
+    text-decoration: none;
+    transition: 1s;
+}
+
+a:hover{
+    font-size: 40px;
+    color: #22475b;
+    text-shadow: 2px 2px #f9872a;
+}
+
+.wrapper{
+    height: 100%;
+    text-align: center;
+    padding-top: 15px;
+}
+
+#paw{
+    text-align: left;
+    height: 50px;
+    width: 50px;
+}
+
+.text{
+    padding: 15px;
+    color: #f99848;
+}
+
+.dog{
+    height: 500px;
+    width: 500px;
+}
